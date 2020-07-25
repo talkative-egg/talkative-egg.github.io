@@ -1,0 +1,15 @@
+h1{
+	color: #0000FF;
+}
+h2{
+	color: #00CCFF;
+}
+body{
+	font-size: 14px;
+	font-weight: 300;
+	font-family: 'Caveat', sans-serif;
+	background-image: url("Nature.jpg");   
+	min-height: 600px; 
+	background-size: cover; 
+	background-position: center center;
+} 
