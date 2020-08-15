@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- PAGE TITLE -->
+    <title>Personal portfolio website</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ALL GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Schoolbell:300,400,700,900" rel="stylesheet">
+    <!-- MAIN STYLE CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src = "js/script.js"> </script>
+</head>
+
+<body>
+	
+	<header class="menu-area">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-md-4">
+	                <div class="logo">
+	                    <h2><a href="index.html"> intro to webdev</a></h2>
+	                </div>
+	            </div>
+	            <div class="col-md-8">
+	                <div class="main-menu">
+	                    <ul>
+	                        <li><a href="index.html">Home</a></li>
+	                        <li><a href="about.html">About</a></li>
+	                        <li><a href="projects.html">Projects</a></li>
+	                        <li><a href="contactme.html">Contact Me</a></li>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</header>
+
+
+	<!-- GALLERY STARTS HERE -->	
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="images/me-bg.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="images/project.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="images/painting.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="images/bike.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="images/snowman.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="images/pc.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/me-bg.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Beach">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/project.jpg" style="width:100%" onclick="currentSlide(2)" alt="Project">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/painting.jpg" style="width:100%" onclick="currentSlide(3)" alt="Me Painting">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/bike.jpg" style="width:100%" onclick="currentSlide(4)" alt="Building a Bike!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/snowman.jpg" style="width:100%" onclick="currentSlide(5)" alt="Making a Snowman">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/pc.jpg" style="width:100%" onclick="currentSlide(6)" alt="Building a PC">
+    </div>
+  </div>
+</div>
+
+	
+
+</body>
+
+</html>
