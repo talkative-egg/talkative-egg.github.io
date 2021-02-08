@@ -1,0 +1,33 @@
+#nav-bar{
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+}
+
+#nav-bar p{
+    background-color: red;
+    display: inline-block;
+    
+}
+
+#nav-bar ul{
+    display: inline-block;
+    margin-right: 0px;
+    text-align: right;
+}
+
+#nav-bar li{
+    margin-right: 10px;
+    background-color: green;
+    display: inline-block;
+}
+
+main h1{
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+}
