@@ -95,3 +95,34 @@ main h3{
     font-size: 18px;
     text-align: center;
 }
+
+#projects-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-image{
+    width: 400x;
+    height: 350px;
+}
+
+#calculator figcaption{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#calculator figcaption a{
+    font-size: 25px;
+}
+
+#etch-a-sketch figcaption{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#etch-a-sketch figcaption a{
+    font-size: 25px;
+}
