@@ -50,20 +50,37 @@ main h3{
 
 #puppy{
     margin-top: 50px;
+    margin-right: 5px;
     float: left;
 }
 
 #puppy figcaption{
     margin-top: 10px;
     font-size: 18px;
+    text-align: center;
+}
+
+#penguin{
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+#penguin figcaption{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
 }
 
 #piglet{
     margin-top: 50px;
+    margin-left: 5px;
     float: right;
 }
 
 #piglet figcaption{
     margin-top: 10px;
     font-size: 18px;
+    text-align: center;
 }
