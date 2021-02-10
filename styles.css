@@ -42,3 +42,28 @@ main h2{
 main h3{
     text-align: center;
 }
+
+.image{
+    width: 330px;
+    height: 180px;
+}
+
+#puppy{
+    margin-top: 50px;
+    float: left;
+}
+
+#puppy figcaption{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#piglet{
+    margin-top: 50px;
+    float: right;
+}
+
+#piglet figcaption{
+    margin-top: 10px;
+    font-size: 18px;
+}
