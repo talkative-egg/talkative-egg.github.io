@@ -116,6 +116,13 @@ main h3{
 
 #calculator figcaption a{
     font-size: 25px;
+    color: red;
+    text-decoration: underline;
+}
+
+#calculator figcaption a:hover{
+    color: black;
+    text-decoration: none;
 }
 
 #etch-a-sketch figcaption{
@@ -125,4 +132,11 @@ main h3{
 
 #etch-a-sketch figcaption a{
     font-size: 25px;
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+#etch-a-sketch figcaption a:hover{
+    color: black;
+    text-decoration: none;
 }
