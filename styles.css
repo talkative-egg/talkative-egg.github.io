@@ -48,10 +48,11 @@ main h3{
     height: 180px;
 }
 
-#puppy{
+#image-container{
     margin-top: 50px;
-    margin-right: 5px;
-    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #puppy figcaption{
@@ -60,23 +61,10 @@ main h3{
     text-align: center;
 }
 
-#penguin{
-    margin-top: 50px;
-    margin-right: 5px;
-    margin-left: 5px;
-    float: left;
-}
-
 #penguin figcaption{
     margin-top: 10px;
     font-size: 18px;
     text-align: center;
-}
-
-#piglet{
-    margin-top: 50px;
-    margin-left: 5px;
-    float: right;
 }
 
 #piglet figcaption{
