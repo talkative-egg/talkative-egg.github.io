@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--This links to the css file, which controls the styles or display of the page-->
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
         <header>
             <nav>
+                <!--The nav bar presented as an unordered list-->
                 <ul id="nav-bar">
                     <li id="title" class="nav-left"><a href="index.html">Peter Chen</a></li>
                     <li id="home" class="nav-right"><a href="index.html">Home</a></li>
@@ -14,12 +16,16 @@
             </nav>
         </header>
         <main>
+            <!-- <h1> - <h6> are page titles where h1 is the largest and h6 the smallest-->
             <h1>What's so interesting about Peter Chen?</h1>
             <h2>Hint: nothing</h2>
             <h3>Hence the white background and the boring fonts. Definitely not because he is lazy</h3>
+            <!--I used a flex container to format the images-->
             <div id="image-container">
                 <figure id="puppy">
+                    <!--Links to the file of the image. alt shows when the image is not loading, always good practice to add it-->
                     <img src="images/puppy.jpeg" alt="an image of a puppy" class="image">
+                    <!--Line break, switches to next line-->
                     <br>
                     <figcaption>
                         So here is an interesting picture of a puppy.
